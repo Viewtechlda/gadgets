@@ -69,14 +69,14 @@ a {
 }
 
 .home .contslide h1{
-  font-family: 'Raleway';
+  font-family: Raleway;
   font-weight: 500;
   font-size: 36px;
   line-height: 54px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   
 }
 
@@ -96,25 +96,20 @@ a {
   animation-delay:1.2s ;
 }
 
-.home .contslide a{
+.home .contslide .btn{
   font-size: 13px;
-  font-family: 'Raleway';
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #000;
+  background: #000;
   color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: background all .8s ease;
 }
 
-.home .slide.active .contslide a{
-  opacity: 0;
-  animation: captionText .5s ease forwards;
-  animation-delay:1.4s ;
+.home .contslide .btn:hover{
+  color: #fff;
+  background: #fcdb04;
 }
+
 
 @keyframes captionText{
   0%{
@@ -151,6 +146,7 @@ a {
 .home .indicator div.active{
   background-color:#000 ;
 }
+
 
 a:hover,
 a:active,
@@ -330,10 +326,10 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  height: 80px;
-  width: 230px;
+  height: 70px;
+  width: 215px;
   margin-left: -40px;
-  margin-top: -10px;
+  margin-top: -15px;
 }
 
 .main-pages {
@@ -389,10 +385,7 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
+
 
 .main-nav,
 .main-nav * {
