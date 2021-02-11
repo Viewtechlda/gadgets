@@ -399,6 +399,8 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-left: 0px;
+  margin-right: 20px;
 }
 
 .main-nav > ul > li {
@@ -409,12 +411,18 @@ h6 {
 
 .main-nav a {
   display: block;
-  position: relative;
+  font-weight: 600;
+  font-size: 13px;
   color: #fff;
-  padding: 10px 15px;
-  transition: 0.3s;
-  font-size: 14px;
-  font-family: "Raleway", sans-serif;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+
   
 }
 
@@ -423,6 +431,7 @@ h6 {
 .main-nav li:hover > a {
   color: #fcdb04;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .main-nav .drop-down ul {
