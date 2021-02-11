@@ -12,8 +12,9 @@
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,10 +44,9 @@
 
     <div class="container">
 
-      <div class="float-left">
+      <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#intro" class="scrollto"></a><img style="width: 200px; height:80px;" src="img/logo.png"></a>
-        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+        <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> 
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -69,16 +69,35 @@
   ============================-->
   <section  class="home">
     <div class="slider">
-      <div class="slide" style="background-image:url('img/slide/slide1.jpg');">
-        <div class="container">
-          <div class="caption">
-            <h1>Temos as Melhores Soluções<span>Tecnológicas</span></h1>
-          </div>
+      <div class="slide active" style="background-image:url('img/slide/slide1.jpg');">
+        <div class="contslide">
+              <h1>Temos as Melhores Soluções <br>Tecnológicas <br><strong><span> Para a suaEmpresa</span></strong></h1>   
+            <a href="#">Saiba Mais</a>
+        </div> 
+      </div>
+      <div class="slide" style="background-image:url('img/slide/slide2.jpg');">
+        <div class="contslide">
+            <h1>Temos as Melhores Soluções <br>Tecnológicas <br><strong><span> Para a suaEmpresa</span></strong></h1>   
+            <a href="#">Saiba Mais</a>
+        </div> 
+      </div>
+      <div class="slide" style="background-image:url('img/slide/slide3.jpg');">
+        <div class="contslide">
+            <h1>Temos as Melhores Soluções <br>Tecnológicas <br><strong><span> Para a suaEmpresa</span></strong></h1>   
+            <a href="#">Saiba Mais</a>
         </div> 
       </div>
      </div>
+     <!--cpntrols-->
+     <div class="controls">
+       <div class="next"></div>
+       <div class="prev"></div>
+     </div>
+
+     <!--indicadores-->
+     <div class="indicator"></div>
   </section>
- <!-- #intro -->
+
 
 
   <!--==========================
@@ -107,6 +126,6 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  <script src="js/script.js"></script>
 </body>
 </html>
