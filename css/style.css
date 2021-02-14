@@ -101,13 +101,17 @@ a {
   border-radius: 20px;
   padding: 12px 20px;
   background: #000;
-  color: #fff;
+  color: #fcdb04;
   transition: background all .8s ease;
+  font-weight: 500;
+  font-family: "Raleway";
 }
 
 .home .contslide .btn:hover{
-  color: #fff;
+  color: #000;
   background: #fcdb04;
+  font-weight: 600;
+  font-family: "Raleway";
 }
 
 
@@ -151,37 +155,44 @@ a {
   text-align: center;
   position: relative;
 }
-.video .btn1{
+.btn1{
   background-color: #fcdb04;
   padding:5px 20px;
   border: none;
   border-radius: 30px;
-  color:#fff;
+  color:#000;
   font-size: 16px; 
   text-transform: capitalize;
   transition: all 0.5s ease;
-
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 15px 15px rgba(255, 255, 255, 0.74);
   position: absolute ;
   left: 50%;
   top: 50%;
 }
 
-.video .btn1 i{
+.btn1:focus{
+  box-shadow: 0 5px 5px rgba(255, 255, 255, 0.3);
+}
+
+.btn1 i{
   font-size: 30px;
 }
-.video .btn1:hover{
+.btn1:hover{
   color: #fcdb04;
-  background-color: #fff;
+  background-color: #000;
 }
 
 
-.video .btn1 .video-play-btn{
+.video-play-btn{
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  font-size: 16px;
   animation: pulse_01 2s ease infinite;
 }
 
-.sideba{
-  
+.video-play-btn i{
+  line-height: 50px;
 }
 
 @keyframes pulse_01{
@@ -191,12 +202,78 @@ a {
   }
   70%{
     transform: scale(1);
-    box-shadow: 0 0 0 12px rgba(226, 20, 20, 0.7);
+    box-shadow: 0 0 20px 12px rgba(255, 255, 255, 0);
   }
   100%{
     transform: scale(0.94);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
+}
+
+.sidebar{
+  height: 335px;
+  width: 50px;
+  background: #000;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.icon-box{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px auto;
+  margin-bottom: 10px;
+}
+
+.side-text{
+  min-width: 0px;
+  height: 100%;
+  background: #fcdb04;
+  margin-right: 10px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Raleway";
+  letter-spacing: 1px; 
+  color: #000;
+  transition: 0.5s;
+
+}
+
+.icon{
+  min-width: 30px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.icon i{
+  font-size: 20px;
+  color: #fcdb04;
+  
+}
+
+.icon-box:hover {
+  background: #fcdb04;
+}
+
+.icon-box:hover .icon i{
+  color: #000;
+}
+
+.icon-box:hover .side-text{
+  min-width: 140px;
 }
 
 a:hover,
