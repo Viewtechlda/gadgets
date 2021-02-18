@@ -776,6 +776,156 @@ h6 {
   width: 50%;
 }
 
+
+/* section solucoes
+--------------------------------*/
+.solucoes{
+  padding-top: 6.5rem;
+  padding: bottom 4.25rem;
+
+}
+
+.solucoes .nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.solucoes .nav > ul > li {
+  position: relative;
+  white-space: nowrap;
+  float: left;
+  list-style: none;
+
+}
+
+.solucoes .nav a {
+  display: block;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+  border-bottom: 0.1875rem solid #f1f1f8;
+
+  
+}
+
+.solucoes .nav a:hover,
+.solucoes .nav li:hover > a {
+  color: #fcdb04;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+.solucoes h3 {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+.solucoes .text-area h4 {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+.solucoes .p-large {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #fff;
+  width: 50%;
+}
+
+.solucoes .nav-tabs{
+  margin-right: auto;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  justify-content: center;
+  border-bottom: none;
+}
+
+.solucoes .nav-link{
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.375rem 0.25rem 1.375rem;
+  border: none;
+  border-bottom: 0.1875rem solid #f1f1f8;
+  border-radius: 0;
+  color: #f1f1f8;
+  font: 700 1rem/1.75rem;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease ;
+}
+
+.solucoes .nav-link.active,
+.solucoes .nav-link:hover{
+  border-bottom: 0.1875rem solid #fcdb04 ;
+  background-color: transparent;
+  color: #fcdb04;
+}
+
+.solucoes .nav-link .fa{
+  margin-right: 0.375rem;
+  font-size: 1rem;
+}
+
+.card{
+  border: none;
+  background: transparent;
+}
+
+.card-body{
+  margin-bottom: 0.5rem;
+
+}
+
+.card-body p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+.card-body  img{
+  display: inline-block;
+  width: 10rem;
+  height: 3.5rem;
+
+}
+
+.left-pane .text-wrapper{
+  display: inline-block;
+  text-align: right;
+  color: #fff;
+}
+
+.right-pane .text-wrapper{
+  display: inline-block;
+  text-align: left;
+  color: #fff;
+}
+
+
+ 
+
+  
+
 /* Section with background
 --------------------------------*/
 
